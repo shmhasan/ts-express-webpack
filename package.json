@@ -1,11 +1,15 @@
 {
-  "name": "auth-service",
+  "name": "ts-express-webpack",
   "version": "1.0.0",
-  "description": "AUthentication and Authorization service",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shmhasan/ts-express-webpack"
+  },
+  "description": "Typrscirpt starter baked with webpack",
   "main": "Server.js",
   "author": "RLAB",
   "license": "MIT",
-  "private": true,
+  "private": false,
   "scripts": {
     "start:dev": "NODE_ENV=development webpack",
     "run:dev": "NODE_ENV=development nodemon build/index.js",
